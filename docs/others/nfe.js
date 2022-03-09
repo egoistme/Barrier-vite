@@ -1,5 +1,5 @@
-const func = ()=>{
-  console.log('hello')
+function func(a){
+  console.log(a)
+  return func(a)
 }
-
-console.log(func.name)
+func(1)(1)
