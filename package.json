@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vitepress dev docs --open",
+    "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs"
-
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "install": "^0.13.0",
+    "sass": "^1.50.0",
     "vitepress": "^0.20.1"
   }
 }
