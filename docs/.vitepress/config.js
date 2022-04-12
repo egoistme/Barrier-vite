@@ -1,0 +1,41 @@
+module.exports = {
+  title: "Barrier",
+  themeConfig: {
+    nav:[
+      {
+        text:'web前端',
+        items:[
+          {
+            text:'Javascript',
+            link:'/web/javascript/'
+          },
+          {
+            text:'动画',
+            link:'/web/animate/'
+          },
+          {
+            text:'vue',
+            link:'/web/vue/'
+          }
+        ]
+      },
+      {
+        text:'移动端',
+        items:[
+          {text:'Fluuter',link:'/mobile/flutter/'},
+          {text:'Dart',link:'/mobile/dart/'}
+        ]
+      },
+      {
+        text:'工具',
+        items:[
+          {text:'git',link:'/tools/git'}
+        ]
+      },
+      {
+        text:'其他',
+        link:'/others'
+      }
+    ]
+  }
+} 
