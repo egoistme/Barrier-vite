@@ -3,6 +3,6 @@ home: true
 sidebar: false
 title: Barrier
 ---
-<HomeBanner />
+<!-- <HomeBanner /> -->
 <script>
 </script>
