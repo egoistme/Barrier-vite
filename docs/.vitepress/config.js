@@ -1,41 +1,42 @@
 module.exports = {
   title: "Barrier",
+  description: '来自天下第一帅气的楚留香的博客',
+  lang: 'zh-CN',
+  head: [['link', { rel: 'icon', type: 'image', href: '德莉傻.png' }]],
+  repo: 'egoistme/Barrier-vite',
+  repoLabel: 'GitHub',
+  docsDir: 'docs',
   themeConfig: {
-    nav:[
+    nav: [
+      { text: '首页', link: '/' },
       {
-        text:'web前端',
-        items:[
+        text: '前端',
+        items: [
           {
-            text:'Javascript',
-            link:'/web/javascript/'
+            text: 'Javascript',
+            link: '/web/javascript/'
           },
           {
-            text:'动画',
-            link:'/web/animate/'
-          },
-          {
-            text:'vue',
-            link:'/web/vue/'
+            text: 'vue',
+            link: '/web/vue/'
           }
         ]
       },
       {
-        text:'移动端',
-        items:[
-          {text:'Fluuter',link:'/mobile/flutter/'},
-          {text:'Dart',link:'/mobile/dart/'}
+        text: '工具',
+        items: [
+          { text: 'git', link: '/tools/git/' }
         ]
       },
       {
-        text:'工具',
-        items:[
-          {text:'git',link:'/tools/git'}
+        text: '其他',
+        items: [
+          {
+            text: '异常错误记录',
+            link: '/others/error-gather/'
+          }
         ]
-      },
-      {
-        text:'其他',
-        link:'/others'
       }
-    ]
+    ],
   }
 } 
