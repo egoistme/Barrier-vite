@@ -1,6 +1,6 @@
 module.exports = {
   title: "Barrier",
-  description: '来自天下第一帅气的楚留香的博客',
+  description: '欲破知见障，不做釜中仙',
   lang: 'zh-CN',
   head: [['link', { rel: 'icon', type: 'image', href: '德莉傻.png' }]],
   repo: 'egoistme/Barrier-vite',
