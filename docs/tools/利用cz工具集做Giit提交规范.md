@@ -10,6 +10,18 @@ commitizen：提供交互式commit的工具，需要额外的适配器才能发�
 cz-customizable：commitizen适配器，比官方提供的cz-conventional-changelog还要好用一些，可以自定义规则。需要写 .cz-config.js
 
 
+为什么不是？
+cz-conventional-changelog
+不可以跳过问题
+
+cz-commitlint
+移动上下光标会出现多行提示的bug
+git-cz
+
+\n换行
+https://github.com/streamich/git-cz/issues/169
+cz-git
+配置丰富，但是运行时会报错
 
 
 
