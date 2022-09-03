@@ -2,11 +2,11 @@
 layout: home
 home: true
 hero:
-  name: VitePress
-  text: Vite & Vue powered static site generator.
-  tagline: Lorem ipsum...
+  name: Barrier
+  text: 欲破知见障                     不做釜中仙
+  tagline: 正在变聪明中...
   image:
-    src: /logo.png
+    src: /德莉傻.png
     alt: VitePress
   actions:
     - theme: brand
@@ -14,7 +14,7 @@ hero:
       link: /guide/what-is-vitepress
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/egoistme/Barrier-vite
 
 features:
   - icon: ⚡️
