@@ -1,3 +1,4 @@
+# 阿里云部署web应用
 ## 购买服务器
 一个普通的ESC实例即可，我购买的是最便宜的轻量应用服务器，作为个人博客足够了。
 选择centOS镜像即可
@@ -11,7 +12,7 @@
 ## 上传项目
 将本地打包好的dist文件上传至服务器
 ## 安装nginx
-```linux
+```sh
 yum install nginx
 ```
 这里遇到了问题，可以参考 <a href="../error-gather/阿里云CentOS 8.x系统yum报404的解决方法.md">阿里云CentOS 8.x系统yum报404的解决方法</a>
