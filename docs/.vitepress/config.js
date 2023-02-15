@@ -83,6 +83,10 @@ module.exports = {
             {
               text:'设置localhost-ssl',
               link:'/others/deploy/设置localhost-ssl'
+            },
+            {
+              text:'如何利用docker部署wordpress环境',
+              link:'/others/deploy/如何利用docker部署wordpress环境',
             }
           ]
         },
